@@ -31,25 +31,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenApply, onNavigate }) => {
   return (
     <footer className="bg-black text-neutral-400 font-sans pt-20 pb-14 border-t border-white/10 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Official All-White Logo Header as requested */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-10 mb-12 border-b border-white/10 gap-6">
-          <button
-            type="button"
-            onClick={() => handleNav('home')}
-            className="flex items-center cursor-pointer text-left focus:outline-none"
-            aria-label="Nexus Finance Home"
-          >
-            <img
-              src="./assets/nexus/NEXUS-BW-HOR-WH.png"
-              alt="Nexus Finance"
-              className="h-9 sm:h-10 w-auto object-contain"
-            />
-          </button>
-          <div className="text-xs text-neutral-400 font-sans max-w-md leading-relaxed">
-            Leading the frontier of ethical, high-speed liquidity and structured credit facilities for civil servants, paramilitary commands, and enterprise leaders across Nigeria.
-          </div>
-        </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
           {/* Col 1: Who We Are */}
           <div>
@@ -258,11 +239,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenApply, onNavigate }) => {
           <div className="space-y-4">
             <button
               onClick={() => handleNav('home')}
-              className="inline-block text-left cursor-pointer"
+              className="inline-block text-left cursor-pointer focus:outline-none"
+              aria-label="Nexus Finance Home"
             >
-              <span className="text-3xl font-black font-display tracking-tighter text-white">
-                nexus
-              </span>
+              <img
+                src="./assets/nexus/NEXUS-BW-HOR-WH.png"
+                alt="Nexus Finance"
+                className="h-8 sm:h-9 w-auto object-contain"
+              />
             </button>
             <p className="text-xs text-neutral-400 font-normal leading-relaxed">
               Your money companion. Earn, invest and access liquidity in one unified ecosystem.
@@ -339,17 +323,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenApply, onNavigate }) => {
               </div>
             </div>
 
-            <div className="text-[11px] text-neutral-400 font-sans pt-2 flex flex-wrap items-center justify-between gap-2">
+            <div className="text-[11px] text-neutral-400 font-sans pt-2">
               <span>&copy; 2026 Nexus Finance. All rights reserved.</span>
-              <button
-                type="button"
-                onClick={() => handleNav('cms')}
-                className="text-[11px] text-slate-500 hover:text-[#00e575] transition-colors cursor-pointer flex items-center gap-1"
-                title="Internal Management CMS Hub"
-              >
-                <span>Staff CMS Portal</span>
-                <span className="text-[9px]">&rarr;</span>
-              </button>
             </div>
           </div>
         </div>
