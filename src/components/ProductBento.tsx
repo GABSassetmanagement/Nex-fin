@@ -40,7 +40,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'mda',
       tag: '15 Mins',
       badge: 'Prompt Emergency Credit',
-      image: '/assets/nexus/naira_1000_stacks.jpg',
+      image: './assets/nexus/naira_1000_stacks.jpg',
       imageAlt: 'Authentic crisp stacks of ₦1,000 Nigerian Central Bank notes with official wrappers',
       description: 'A flexible, no-collateral personal and business loan designed for prompt access to funds during emergencies with flexible tenures up to 24 months.',
       bullets: [
@@ -55,7 +55,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'mda',
       tag: 'Instant Remita',
       badge: 'Salary-Based Remita Facility',
-      image: '/assets/nexus/corporate_salary_exec.jpg',
+      image: './assets/nexus/corporate_salary_exec.jpg',
       imageAlt: 'Senior Nigerian professional in corporate boardroom managing salary-backed credit',
       description: 'A quick, non-collateral, salary-based credit facility offering competitive interest rates with ultra-fast Remita payroll disbursement and automatic deductions.',
       bullets: [
@@ -70,7 +70,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'individual',
       tag: '2hr Disbursal',
       badge: 'Insured Depot Storage',
-      image: '/assets/nexus/hero_car.jpg',
+      image: './assets/nexus/hero_car.jpg',
       imageAlt: 'Car-for-Cash Asset Depot Storage with 24/7 insured protection',
       description: 'Unlock urgent capital leveraging your vehicle value. The customer does not keep and drive the car; vehicle is safely held in our 24/7 insured climate-controlled depot.',
       bullets: [
@@ -85,7 +85,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'individual',
       tag: '12–24hr Issuance',
       badge: 'Visa, Study & Relocation',
-      image: '/assets/nexus/travel_documents.jpg',
+      image: './assets/nexus/travel_documents.jpg',
       imageAlt: 'Nigerian passport, verified bank financial statement and international flight documents',
       description: 'Certified, bank-verified proof of capability and travel documentation for international visa applications, university study permits, relocation, and contracts.',
       bullets: [
@@ -100,7 +100,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'investment',
       tag: 'Guaranteed Yield',
       badge: '15.5% Annualized APY',
-      image: '/assets/nexus/gold_vault.jpg',
+      image: './assets/nexus/gold_vault.jpg',
       imageAlt: 'Pure 1kg fine gold bullion bars stacked inside bank safety deposit box vault',
       description: 'Capital preservation and inflation-hedged yields designed for high-net-worth members, cooperative societies, and corporate reserves.',
       bullets: [
@@ -115,7 +115,7 @@ export const ProductBento: React.FC<ProductBentoProps> = ({ onSelectProduct }) =
       category: 'business',
       tag: 'Subsidized Terms',
       badge: 'Women in Enterprise',
-      image: '/assets/nexus/entrepreneur.webp',
+      image: './assets/nexus/entrepreneur.webp',
       imageAlt: 'Nigerian female entrepreneur in her commercial fashion boutique and design studio',
       description: 'Closing the female entrepreneurship credit gap. Customized working capital with advisory support, flexible tenures, and growth coaching.',
       bullets: [

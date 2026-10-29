@@ -80,7 +80,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApply, onNavigate, current
             className="flex items-center gap-2.5 text-white font-extrabold text-2xl tracking-tighter shrink-0 font-display group focus-visible:outline-none cursor-pointer"
           >
             <img
-              src="/assets/nexus/NEXUS-mark-coloured-1x1.png"
+              src="./assets/nexus/NEXUS-mark-coloured-1x1.png"
               alt="Nexus Icon"
               className="w-7 h-7 object-contain"
               onError={(e) => {

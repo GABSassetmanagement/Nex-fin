@@ -29,7 +29,7 @@ export const BlogCmsModal: React.FC<BlogCmsModalProps> = ({
   const [readTime, setReadTime] = useState('4 min read');
   const [excerpt, setExcerpt] = useState('');
   const [content, setContent] = useState('');
-  const [image, setImage] = useState('/assets/nexus/naira_1000_stacks.jpg');
+  const [image, setImage] = useState('./assets/nexus/naira_1000_stacks.jpg');
 
   if (!isOpen) return null;
 
@@ -44,7 +44,7 @@ export const BlogCmsModal: React.FC<BlogCmsModalProps> = ({
     setReadTime('4 min read');
     setExcerpt('');
     setContent('');
-    setImage('/assets/nexus/naira_1000_stacks.jpg');
+    setImage('./assets/nexus/naira_1000_stacks.jpg');
   };
 
   const startEdit = (post: BlogPost) => {
@@ -94,7 +94,7 @@ export const BlogCmsModal: React.FC<BlogCmsModalProps> = ({
         authorRole,
         date: formattedDate,
         readTime,
-        image: image || '/assets/nexus/naira_1000_stacks.jpg',
+        image: image || './assets/nexus/naira_1000_stacks.jpg',
       };
       onSavePosts([newPost, ...posts]);
     } else if (editingPost) {
@@ -254,16 +254,16 @@ export const BlogCmsModal: React.FC<BlogCmsModalProps> = ({
                     type="text"
                     value={image}
                     onChange={(e) => setImage(e.target.value)}
-                    placeholder="/assets/nexus/naira_1000_stacks.jpg"
+                    placeholder="./assets/nexus/naira_1000_stacks.jpg"
                     className="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white text-xs font-mono"
                   />
                   <div className="flex gap-1">
                     {[
-                      { label: 'Naira', path: '/assets/nexus/naira_1000_stacks.jpg' },
-                      { label: 'Executive', path: '/assets/nexus/corporate_salary_exec.jpg' },
-                      { label: 'Car', path: '/assets/nexus/hero_car.jpg' },
-                      { label: 'Travel', path: '/assets/nexus/travel_documents.jpg' },
-                      { label: 'Gold', path: '/assets/nexus/gold_vault.jpg' },
+                      { label: 'Naira', path: './assets/nexus/naira_1000_stacks.jpg' },
+                      { label: 'Executive', path: './assets/nexus/corporate_salary_exec.jpg' },
+                      { label: 'Car', path: './assets/nexus/hero_car.jpg' },
+                      { label: 'Travel', path: './assets/nexus/travel_documents.jpg' },
+                      { label: 'Gold', path: './assets/nexus/gold_vault.jpg' },
                     ].map((preset) => (
                       <button
                         key={preset.label}

@@ -181,7 +181,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
       'Fellow, Institute of Credit Administration (FICA)',
     ],
     formerBackground: 'Former FCMB PLC Commercial Banking & UK Dion Investment Company Portfolio Lead',
-    image: '/assets/team/henrietta_okolo.webp',
+    image: './assets/team/henrietta_okolo.webp',
   },
   {
     name: 'David Nwokeukwu',
@@ -212,7 +212,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
       'Fellow, Chartered Institute of Loan & Risk Management',
     ],
     formerBackground: 'Former GTBank PLC & LAPO MFB Senior Risk & Accounting Lead',
-    image: '/assets/team/david_nwokeukwu.webp',
+    image: './assets/team/david_nwokeukwu.webp',
   },
   {
     name: 'Oluwatosin Ogunleye',
@@ -243,7 +243,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
       'Associate, Nigerian Institute of Management (AMNIM)',
     ],
     formerBackground: 'Former Fidelity Bank PLC Operations & VIP Service Specialist',
-    image: '/assets/team/oluwatosin_ogunleye.webp',
+    image: './assets/team/oluwatosin_ogunleye.webp',
   },
   {
     name: 'Immanuel Igomu',
@@ -275,7 +275,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
       'Deloitte Cyber Security Practitioner',
     ],
     formerBackground: 'Former Cyber Security Analyst at Defence Space Administration & Voice of Nigeria',
-    image: '/assets/team/immanuel_igomu.webp',
+    image: './assets/team/immanuel_igomu.webp',
   },
   {
     name: 'Abu Muritala',
@@ -305,7 +305,7 @@ export const LEADERSHIP_TEAM: LeadershipMember[] = [
       'Certified Debt Recovery Practitioner (CDRP)',
     ],
     formerBackground: 'Former Access Bank PLC & LAPO Microfinance Bank Specialist',
-    image: '/assets/team/abu_muritala.webp',
+    image: './assets/team/abu_muritala.webp',
   },
 ];
 

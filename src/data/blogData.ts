@@ -33,7 +33,7 @@ Key Pillars of Ultra-Fast Lending:
     authorRole: 'Managing Director & CEO',
     date: 'March 18, 2026',
     readTime: '4 min read',
-    image: '/assets/nexus/naira_1000_stacks.jpg',
+    image: './assets/nexus/naira_1000_stacks.jpg',
     featured: true,
   },
   {
@@ -54,7 +54,7 @@ Benefits for Federal Officers:
     authorRole: 'Chief Risk Officer (CRO)',
     date: 'March 10, 2026',
     readTime: '5 min read',
-    image: '/assets/nexus/corporate_salary_exec.jpg',
+    image: './assets/nexus/corporate_salary_exec.jpg',
     featured: false,
   },
   {
@@ -75,7 +75,7 @@ Unlike risky title lending where vehicles are driven and exposed to road acciden
     authorRole: 'Head of Recovery & Asset Remediation',
     date: 'February 28, 2026',
     readTime: '6 min read',
-    image: '/assets/nexus/hero_car.jpg',
+    image: './assets/nexus/hero_car.jpg',
     featured: false,
   },
   {
@@ -96,7 +96,7 @@ Every statement is issued directly from our regulated financial clearing account
     authorRole: 'Managing Director & CEO',
     date: 'February 15, 2026',
     readTime: '4 min read',
-    image: '/assets/nexus/travel_documents.jpg',
+    image: './assets/nexus/travel_documents.jpg',
     featured: false,
   },
   {
@@ -112,7 +112,7 @@ The Nexus Women Empowerment Loan (NWEL) was conceived to rewrite this dynamic. W
     authorRole: 'Managing Director & CEO',
     date: 'January 29, 2026',
     readTime: '5 min read',
-    image: '/assets/nexus/entrepreneur.webp',
+    image: './assets/nexus/entrepreneur.webp',
     featured: false,
   },
   {
@@ -131,7 +131,7 @@ Cooperative fixed deposits deploy capital into vetted, asset-backed SME debt, ve
     authorRole: 'Chief Risk Officer (CRO)',
     date: 'January 14, 2026',
     readTime: '4 min read',
-    image: '/assets/nexus/gold_vault.jpg',
+    image: './assets/nexus/gold_vault.jpg',
     featured: false,
   },
 ];

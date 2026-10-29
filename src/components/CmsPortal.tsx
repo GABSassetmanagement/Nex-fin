@@ -449,7 +449,7 @@ export const CmsPortal: React.FC<CmsPortalProps> = ({ onNavigate }) => {
                         year: 'numeric',
                       }),
                       readTime: '4 min read',
-                      image: '/assets/nexus/naira_1000_stacks.jpg',
+                      image: './assets/nexus/naira_1000_stacks.jpg',
                       excerpt: '',
                       content: '',
                       featured: false,
@@ -558,7 +558,7 @@ export const CmsPortal: React.FC<CmsPortalProps> = ({ onNavigate }) => {
                       category: 'Office',
                       location: 'Abuja Head Office (NICON Insurance Building)',
                       date: '2026',
-                      image: '/assets/nexus/naira_1000_stacks.jpg',
+                      image: './assets/nexus/naira_1000_stacks.jpg',
                       description: '',
                     });
                     setIsGalleryFormOpen(true);
@@ -968,15 +968,15 @@ export const CmsPortal: React.FC<CmsPortalProps> = ({ onNavigate }) => {
                     value={editingGalleryItem.image}
                     onChange={(e) => setEditingGalleryItem({ ...editingGalleryItem, image: e.target.value })}
                     className="w-full px-3 py-2 rounded-xl bg-white/[0.04] border border-white/10 text-white focus:outline-none focus:border-[#00e575]"
-                    placeholder="/assets/nexus/..."
+                    placeholder="./assets/nexus/..."
                   />
                   <div className="flex gap-2 mt-1.5 flex-wrap">
                     {[
-                      { label: 'Naira Stacks', url: '/assets/nexus/naira_1000_stacks.jpg' },
-                      { label: 'Asset Depot Car', url: '/assets/nexus/hero_car.jpg' },
-                      { label: 'Travel Passports', url: '/assets/nexus/travel_documents.jpg' },
-                      { label: 'Bullion Vault', url: '/assets/nexus/gold_vault.jpg' },
-                      { label: 'Corporate Office', url: '/assets/nexus/corporate_salary_exec.jpg' },
+                      { label: 'Naira Stacks', url: './assets/nexus/naira_1000_stacks.jpg' },
+                      { label: 'Asset Depot Car', url: './assets/nexus/hero_car.jpg' },
+                      { label: 'Travel Passports', url: './assets/nexus/travel_documents.jpg' },
+                      { label: 'Bullion Vault', url: './assets/nexus/gold_vault.jpg' },
+                      { label: 'Corporate Office', url: './assets/nexus/corporate_salary_exec.jpg' },
                     ].map((pre) => (
                       <button
                         key={pre.label}

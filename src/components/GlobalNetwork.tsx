@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Globe, ArrowRight, Shield, Zap, RefreshCw } from 'lucide-react';
+import globeImg from '../assets/images/nexus_global_exchange_globe_1792755830792.jpg';
 
 export const GlobalNetwork: React.FC = () => {
   const [activeCurrency, setActiveCurrency] = useState<'NGN' | 'USD' | 'GBP' | 'EUR'>('USD');
@@ -25,7 +26,7 @@ export const GlobalNetwork: React.FC = () => {
               <div className="absolute inset-0 bg-radial from-emerald-500/10 via-transparent to-transparent pointer-events-none" />
               
               <img
-                src="/src/assets/images/nexus_global_exchange_globe_1792755830792.jpg"
+                src={globeImg}
                 alt="Global Financial Network Globe"
                 className="w-full h-full object-contain rounded-2xl transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

@@ -52,7 +52,7 @@ const HERO_SLIDES: SlideData[] = [
     defaultAmount: 5000000,
     defaultTenure: 1,
     secondaryCtaText: 'Estimate Vehicle Equity',
-    image: '/assets/nexus/hero_car.jpg',
+    image: './assets/nexus/hero_car.jpg',
     imageAlt: 'Luxury executive sports car in dark studio representing Car for Cash loan',
   },
   {
@@ -73,7 +73,7 @@ const HERO_SLIDES: SlideData[] = [
     defaultAmount: 1000000,
     defaultTenure: 1,
     secondaryCtaText: 'Estimate Repayments',
-    image: '/assets/nexus/naira_1000_stacks.jpg',
+    image: './assets/nexus/naira_1000_stacks.jpg',
     imageAlt: 'Authentic crisp stacks of ₦1,000 Nigerian Naira banknotes with official wrappers symbolizing instant liquidity',
   },
   {
@@ -94,7 +94,7 @@ const HERO_SLIDES: SlideData[] = [
     defaultAmount: 15000000,
     defaultTenure: 1,
     secondaryCtaText: 'Verify Travel Criteria',
-    image: '/assets/nexus/travel_documents.jpg',
+    image: './assets/nexus/travel_documents.jpg',
     imageAlt: 'International passport and verified financial certificate on dark slate',
   },
 ];

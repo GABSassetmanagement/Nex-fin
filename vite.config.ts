@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/', // Important for custom domain hosting
+    base: './', // Supports both GitHub Pages subpath and custom domain
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
