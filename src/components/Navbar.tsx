@@ -74,20 +74,17 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApply, onNavigate, current
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4 md:gap-6">
-          {/* Brand Wordmark */}
+          {/* Brand Logo: Official NEXUS FINANCE Logo */}
           <button
             onClick={() => handleNavClick('home')}
-            className="flex items-center gap-2.5 text-white font-extrabold text-2xl tracking-tighter shrink-0 font-display group focus-visible:outline-none cursor-pointer"
+            className="flex items-center shrink-0 focus-visible:outline-none cursor-pointer"
+            aria-label="Nexus Finance Home"
           >
             <img
-              src="./assets/nexus/NEXUS-mark-coloured-1x1.png"
-              alt="Nexus Icon"
-              className="w-7 h-7 object-contain"
-              onError={(e) => {
-                (e.target as HTMLElement).style.display = 'none';
-              }}
+              src={theme === 'light' ? './assets/nexus/NEXUS-coloured-HOR.png' : './assets/nexus/NEXUS-coloured-HOR-dark.png'}
+              alt="Nexus Finance"
+              className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-opacity duration-200"
             />
-            <span className="tracking-tighter lowercase text-2xl font-black font-display">nexus</span>
           </button>
 
           {/* Desktop & Tablet Navigation Bar */}

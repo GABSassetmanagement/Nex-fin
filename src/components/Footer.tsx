@@ -31,6 +31,25 @@ export const Footer: React.FC<FooterProps> = ({ onOpenApply, onNavigate }) => {
   return (
     <footer className="bg-black text-neutral-400 font-sans pt-20 pb-14 border-t border-white/10 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Official All-White Logo Header as requested */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-10 mb-12 border-b border-white/10 gap-6">
+          <button
+            type="button"
+            onClick={() => handleNav('home')}
+            className="flex items-center cursor-pointer text-left focus:outline-none"
+            aria-label="Nexus Finance Home"
+          >
+            <img
+              src="./assets/nexus/NEXUS-BW-HOR-WH.png"
+              alt="Nexus Finance"
+              className="h-9 sm:h-10 w-auto object-contain"
+            />
+          </button>
+          <div className="text-xs text-neutral-400 font-sans max-w-md leading-relaxed">
+            Leading the frontier of ethical, high-speed liquidity and structured credit facilities for civil servants, paramilitary commands, and enterprise leaders across Nigeria.
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-16">
           {/* Col 1: Who We Are */}
           <div>
